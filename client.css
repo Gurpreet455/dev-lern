@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.nav {
+  height: 200px;
+}
+.logo {
+  width: 25%;
+  padding: 50px;
+  height: 100px;
+}
+.logo-img {
+  height: 110px;
+  padding-top: 5px;
+  padding-left: 50px;
+}
+.nav-contact {
+  display: flex;
+  padding-right: 50px;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+.list-contact {
+  padding: 20px;
+}
+.call-icon {
+  height: 35px;
+  float: left;
+  background-color: #3dadf2;
+  color: white;
+  padding: 6px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 5px;
+}
+.call-icon2 {
+  height: 53px;
+  float: left;
+  color: white;
+  padding: 4px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 15px;
+}
+
+.num {
+  padding-left: 43px;
+  color: black;
+}
+.num2 {
+  padding-left: 58px;
+  color: black;
+}
+.butun {
+  padding: 0.7rem 2.5rem;
+  border-radius: 4rem;
+  background-color: #005696;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  font-weight: 600;
+}
+.second-div {
+  height: 500px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.girlimage {
+  position: absolute;
+  top: 170px;
+  right: 30px;
+  height: 500px;
+}
+.second-div1 {
+  z-index: 1;
+  position: relative;
+  top: 50px;
+  left: 7rem;
+}
+.second-div2 {
+  z-index: 1;
+  position: relative;
+  top: 50px;
+  left: 7rem;
+}
+.second-div3 {
+  z-index: 1;
+  position: relative;
+  top: 90px;
+  left: 7rem;
+  color: rgb(160, 160, 157);
+}
+.button {
+  z-index: 1;
+  position: relative;
+  top: 150px;
+  left: 7rem;
+
+  padding: 1.5rem 4.5rem;
+  font-size: x-large;
+  background-color: rgb(250, 196, 0) !important;
+  border: none;
+}
+/*     third div    */
+.third-div {
+  width: 85%;
+  height: 300px;
+  background-color: rgb(253, 250, 250);
+  margin: 0 auto;
+  padding: 50px;
+}
+.third-div1 {
+  color: rgb(160, 160, 157);
+  font-size: x-large;
+  display: inline;
+  padding-left: 8px;
+}
+.third-div2 {
+  width: 40%;
+  font-size: x-large;
+  padding-top: 20px;
+  padding-left: 8px;
+}
+
+.third-div3 {
+  float: right;
+  width: 55%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1px;
+  background-color: rgb(6, 6, 6);
+
+  position: relative;
+  bottom: 225px;
+}
+.grid1 {
+  background-color: rgb(253, 250, 250);
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.icon1 {
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.p3 {
+  padding-top: 5px;
+}
+
+/*body*/
+
+.body-h1 {
+  font-weight: bold;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.body-h5 {
+  color: rgb(160, 160, 157);
+  font-size: large;
+  padding-left: 110px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.body-div {
+  width: 85%;
+  height: 500px;
+  background-color: rgb(253, 250, 250);
+  margin: 0 auto;
+  padding: 50px;
+  font-weight: bolder;
+}
+.boypng {
+  height: 65%;
+  position: absolute;
+  right: 50px;
+}
+.body-div2 {
+  width: 30%;
+  margin-left: 60px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 6px 6px 20px 15px rgb(136, 136, 136, 0.19);
+  border-radius: 8px;
+}
+#body-h1 {
+  font-size: 1.8rem;
+  padding: 20px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.body-p {
+  text-align: left;
+  padding-left: 35px;
+  padding-bottom: 30px;
+  color: rgb(160, 160, 157);
+}
+#body-rating {
+  margin: 20px;
+  padding: 0.5rem 2rem;
+  border-radius: 4rem;
+  background-color: #3dadf2;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  left: 30px;
+  font-weight: 600;
+}
+.body-rating {
+  padding: 0.5rem 1.3rem;
+  border-radius: 4rem;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  right: 40px;
+  font-weight: 600;
+}
+.body-flutter-logo {
+  height: 120px;
+}
+.body-div3 {
+  float: right;
+  width: 60%;
+  line-height: 4rem;
+  position: relative;
+  bottom: 400px;
+}
+.body-h11 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+#body-p {
+  color: rgb(160, 160, 157);
+}
+.body-h3 {
+  font-size: 1.5rem;
+  color: #2f7eb0;
+  font-weight: 700;
+}
+#body-h3 {
+  color: black;
+}
+#body-button {
+  margin-left: 50px;
+  padding: 0.8rem 2.6rem;
+  border-radius: 6px;
+  background-color: #fdfeff;
+  color: #054a74;
+  border: 1px solid #3dadf2;
+  text-align: center;
+  font-weight: bolder;
+  font-size: medium;
+}
+.body-button {
+  padding: 0.8rem 2.4rem;
+  border-radius: 6px;
+  font-size: medium;
+  background-color: rgb(250, 196, 0) !important;
+  color: #fdfeff;
+  border: none;
+}
+#body-div {
+  position: relative;
+  bottom: 200px;
+  display: flex;
+  width: 85%;
+  height: 500px;
+  background-color: rgb(255, 200, 0);
+  margin: 0 auto;
+  padding: 50px;
+  font-weight: bolder;
+  box-shadow: 6px 6px 20px 15px rgb(136, 136, 136, 0.19);
+  border-radius: 8px;
+}
+#body-div2 {
+  float: right;
+  width: 80%;
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+#body-h11 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+#body-p1 {
+  color: rgb(89, 89, 89);
+  padding-top: 40px;
+}
+#body-h333 {
+  padding-top: 40px;
+  color: white;
+}
+.body-h33 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: black !important;
+}
+#body-button1 {
+  padding: 1rem 2.8rem;
+  border-radius: 6px;
+  background-color: #054a74;
+  color: #f8f9f9;
+  border: 1px solid #3dadf2;
+  text-align: center;
+  font-weight: bolder;
+  font-size: medium;
+  margin-right: 60px;
+}
+#body-button2 {
+  padding: 1rem 2.9rem;
+  border-radius: 6px;
+  font-size: medium;
+  background-color: rgb(250, 196, 0) !important;
+  color: #070707;
+  border: 1px solid #3dadf2;
+  font-weight: bolder;
+}
+#body-div3 {
+  width: 30%;
+  margin-left: 110px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 6px 6px 20px 15px rgb(136, 136, 136, 0.19);
+  border-radius: 8px;
+}
+#body-flutter-logo {
+  height: 120px;
+}
+#body-h111 {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+#body-p11 {
+  color: rgb(89, 89, 89);
+  text-align: left !important;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+#body-rating1 {
+  padding: 0.5rem 1.3rem;
+  border-radius: 4rem;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  right: 20px;
+  font-weight: 600;
+  font-size: medium;
+}
+#body-rating2 {
+  margin: 15px;
+  padding: 0.5rem 2rem;
+  border-radius: 4rem;
+  background-color: #3dadf2;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  left: 30px;
+  font-weight: 600;
+  border: none;
+}
+/*  4th div*/
+.body-div-4 {
+  position: relative;
+  bottom: 100px;
+  height: 400px;
+  background-color: rgb(253, 250, 250);
+  padding: 100px;
+  display: flex;
+  flex-grow: 1;
+  gap: 10;
+  align-items: center;
+  text-align: center;
+}
+#body-div-1 {
+  width: 30%;
+  padding: 30px;
+}
+#body-png {
+  border-radius: 50%;
+  height: 200px;
+  background-color: rgb(253, 250, 250);
+}
+#body-div-h1 {
+  font-size: 1.5rem;
+  padding: 10px 0px;
+  color: #054a74;
+}
+.body-div-h1 {
+  margin-top: 12px;
+}
+#body-div-p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgb(89, 89, 89);
+}
+#body-div-2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 500px;
+  margin-left: 350px;
+ 
+  
+}
+#body-png2 {
+  height: 450px;
+}
+#body-div-p2 {
+  font-size: smaller;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  top: 150px;
+  left: 45px;
+  color: rgb(221, 171, 20);
+  font-weight: bolder;
+}
+#body-div-h2 {
+  position: relative;
+  top: 170px;
+  right: 120px;
+  width: 200%;
+  height: 70px;
+}
+input{
+  padding: 10px;
+  width:400px;
+ border: 1px solid rgb(156, 156, 156);
+}
+.input{
+  height: 100px;
+  position: relative;
+  top: 260px;
+  right: 450px;
+}
+.mail-png{
+  position: relative;
+  top: 35px;
+  right: 180px;
+}
+input[type=text]{
+  background-image: url('./png/icons8-mail-24.png ') ;
+ background-repeat: no-repeat;
+ background-position: 10px 10px;
+ padding:15px 40px;
+}
+.submit{
+position: relative;
+bottom: 43px;
+left: 260px;
+padding: 0.6rem 1.4rem;
+border-radius: 3px;
+font-size: smaller;
+background-color: rgb(250, 196, 0) !important;
+color: #050505;
+border:none;
+}
